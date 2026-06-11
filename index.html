@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0d0515">
+  <title>Nosso Álbum ❤️</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="hearts-canvas" aria-hidden="true"></canvas>
+
+  <header class="album-header">
+    <h1>Nosso Álbum</h1>
+    <p>com todo o meu amor <span aria-hidden="true">❤️</span></p>
+  </header>
+
+  <main id="photo-container" aria-label="Álbum de fotos"></main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Visualizar foto">
+    <div id="lightbox-overlay" class="overlay"></div>
+    <button id="lightbox-close" class="btn-close" aria-label="Fechar">&#x2715;</button>
+    <div class="lightbox-body">
+      <img id="lightbox-img" src="" alt="">
+      <p id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- QR Modal -->
+  <div id="qr-modal" class="modal hidden" role="dialog" aria-modal="true" aria-label="QR Code do álbum">
+    <div id="qr-overlay" class="overlay"></div>
+    <div class="modal-box">
+      <button id="qr-close" class="btn-close btn-close--inner" aria-label="Fechar">&#x2715;</button>
+      <h2>Compartilhe este álbum</h2>
+      <div id="qr-code" role="img" aria-label="QR Code"></div>
+      <p id="qr-url"></p>
+    </div>
+  </div>
+
+  <!-- QR FAB -->
+  <button id="qr-btn" class="fab" aria-label="Abrir QR Code para compartilhar">QR</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
