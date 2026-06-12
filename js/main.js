@@ -2,14 +2,14 @@
 // EDITE AQUI: Adicione suas fotos e legendas
 // =====================================================================
 const photos = [
-  { src: 'images/foto1.jpg', caption: '💕 Nossa primeira vez juntos' },
-  { src: 'images/foto2.jpg', caption: '❤️ Sempre com você' },
-  { src: 'images/foto3.jpg', caption: '🌹 Meu amor eterno' },
-  { src: 'images/foto4.jpg', caption: '💑 Juntos para sempre' },
-  { src: 'images/foto5.jpg', caption: '✨ Momentos especiais' },
-  { src: 'images/foto6.jpg', caption: '💌 Te amo tanto' },
-  { src: 'images/foto7.jpg', caption: '🥂 Nossa história' },
-  { src: 'images/foto8.jpg', caption: '🌺 Para sempre' },
+  { src: 'images/branco.jpg', caption: '💕 Muito amor e muita paz' },
+  { src: 'images/casinha.jpg', caption: '🏠 Momentos no nosso habitat 🛏' },
+  { src: 'images/conquista.JPG', caption: '👩‍🎓 Celebrando as conquistas! 🎉' },
+  { src: 'images/outras-terras.jpg', caption: '💑 Aventuras em outras terras' },
+  { src: 'images/casamento.JPG', caption: '✨ A união 👩‍❤️‍💋‍👨' },
+  { src: 'images/gravida.jpg', caption: '🤰🏾 Aguardando um alien 👽' },
+  { src: 'images/praia.jpg', caption: '🔥 Calmaria antes da tempestade kkkkk' },
+  { src: 'images/bembas.JPG', caption: '👶 Depois de nove meses... Nosso tesouro!' },
 ];
 // =====================================================================
 
